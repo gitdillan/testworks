@@ -1,0 +1,15 @@
+<p><a routerLink="/" class="nav-link">Home</a></p>
+
+<ul *ngFor="let content of testworks">
+    <li >
+        {{content.mname}}
+    </li>
+    <li >
+        {{content.mcontent}}
+    </li>
+    <li >
+        {{content.micon}}
+    </li>
+</ul>
+
+<p>{{  birthday | date:'fullDate' | uppercase}}</p>
